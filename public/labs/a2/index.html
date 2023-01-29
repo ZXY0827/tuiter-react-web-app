@@ -16,6 +16,8 @@
      This document uses headings to introduce topics such as HTML Documents, HTML Tags, Heading Tags, etc.
      HTML heading tags can be used to format plain text so that it renders in a browser as large headings.
      There are 6 heading tags: h1, h2, h3, h4, h5, and h6. Tag h1 is the largest heading and h6 is the smallest heading.
+
+     <h2>Paragraph Tag</h2>
      <p>
          This is a paragraph. We often separate a long set of sentences with vertical spaces to make the text easier
          to read. Browsers ignore vertical white spaces and render all the text as one single set of sentences.
@@ -33,6 +35,15 @@
      <p>
          This is the third paragraph. Wrap each paragraph with the paragraph tag to tell browsers to render the gaps.
      </p>
+
+     <h2>List Tags</h2>
+     <h3>Ordered List Tag</h3>
+     How to join the 1%
+        1.Get a masters in computer science
+        2.Get a $100K+ starting salary job
+        3.Marry a like-minded engineer
+        4.Do great work for a decade
+
 
      <h2>List Tags</h2>
      <h3>Ordered List Tag</h3>
@@ -92,6 +103,11 @@
          </tfoot>
      </table>
 
+     <br/>
+     <img src="my-picture.jpeg"
+          width="200px"
+          height="300px"/>
+
      <h2>Image tag</h2>
      Loading an image from the internet:<br/>
      <img width="400px"
@@ -101,10 +117,16 @@
      <img src="teslabot.jpeg"
           height="200px"/>
 
+     <br/>
+     <input  type="text"
+             placeholder="hint"
+             title="tooltip"
+             value="COMEDY"/>
+
      <h2>Text fields</h2>
      <form id="text-fields">
          <label for="text-fields-username">Username:</label>
-         <input id="text-fields-username" placeholder="zxy"/><br/>
+         <input id="text-fields-username" placeholder="jdoe"/><br/>
          <label for="text-fields-password">Password:</label>
          <input type="password" id="text-fields-password"
                 value="123@#$asd"/><br/>
@@ -114,13 +136,12 @@
          <label for="text-fields-last-name">Last name:</label>
          <input type="text" id="text-fields-last-name"
                 placeholder="Doe" value="Wonderland"/>
-
      </form>
 
+     <h2>Other field types</h2>
      <form id="other-field-types">
-         <h2>Other field types</h2>
          <label for="text-fields-email">Email:</label>
-         <input type="email" placeholder="zxy@somewhere.com"
+         <input type="email" placeholder="jdoe@somewhere.com"
                 id="text-fields-email"/><br/>
 
          <label for="text-fields-salary-start">Starting salary:</label>
@@ -135,23 +156,46 @@
          <input type="date" id="text-fields-dob" value="2023-01-20"/><br/>
      </form>
 
+     <br/>
+     <textarea cols="20"
+               rows="25"
+               placeholder="Biography"
+               title="tooltip">Some text</textarea>
+
 
      <h2>Text boxes</h2>
      <form id="textarea">
          <label>Biography:</label><br/>
          <textarea cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-
          </textarea>
      </form>
 
      <h3>Buttons</h3>
      <button type="button">Click me!</button>
 
+     <br/>
+     <h2>Examples</h2>
+     <select>
+         <option value="VAL1">Value 1</option>
+         <option value="VAL2" selected>
+             Value 2</option>
+         <option value="VAL3">Value 3</option>
+     </select>
+
+     <br/>
+
+     <!-- Press Command button to select  multiple -->
+     <select multiple>
+         <option value="VAL1" selected>Value 1</option>
+         <option value="VAL2">Value 2</option>
+         <option value="VAL3" selected>Value 3</option>
+     </select>
+
+     <!--for &  id related each other -->
      <h2>Dropdowns</h2>
      <h3>Select one</h3>
      <label for="select-one-genre">Favorite movie genre:</label><br/>
-     <select id="select-one-genre"> // for id related each other
+     <select id="select-one-genre">
          <option value="COMEDY">Comedy</option>
          <option value="DRAMA">Drama</option>
          <option selected value="SCIFI">Science Fiction</option>
@@ -169,6 +213,16 @@
 
      <h2>File upload</h2>
      <input type="file"/>
+     <br/>
+
+     <h2>Examples</h2>
+     <input type="radio"
+            name="NAME1"
+            value="OPTION1"/>
+     <input type="radio" checked
+            name="NAME1"
+            value="OPTION2"/>
+
 
      <h2>Radio buttons</h2>
      <label>Favorite movie genre:</label><br/>
@@ -189,7 +243,19 @@
             name="radio-genre" id="radio-fantasy"/>
      <label for="radio-fantasy">Fantasy</label>
 
-
+     <br/>
+     <h2>Examples</h2>
+     <input type="checkbox"
+            name="NAME2"
+            checked
+            value="OPTION1"/>
+     <input type="checkbox"
+            name="NAME2"
+            value="OPTION2"/>
+     <input type="checkbox"
+            checked
+            name="NAME2"
+            value="OPTION3"/>
 
      <h2>Checkboxes</h2>
      <label>Favorite movie genre:</label>
@@ -209,6 +275,9 @@
      <label for="chkbox-fantasy">Fantasy</label>
 
 
+     <br/>
+     <a href="aa.com">
+         American Airlines</a>
 
      <h2>Anchor tag</h2>
      Please
@@ -216,6 +285,11 @@
      to get dummy text<br/>
      Checkout my <a href="other-page.html">other page</a>
 
+     <br/>
+     <h2>Example</h2>
+     <iframe width="600" height="400"
+             src="https://en.wikipedia.org/wiki/SpaceX">
+     </iframe>
 
      <h2>Table of content</h2>
      <ul>
@@ -226,7 +300,7 @@
 
      <a name="embedding-website"></a>
      <h2>Embedding other websites</h2>
-     <a href="#top" target="websites">Top</a><br/>
+     <a href="#top">Top</a><br/>
      <iframe width="600"
              height="400"
              src="https://www.northeastern.edu/">
@@ -234,7 +308,7 @@
 
      <a name="embedding-youtube"></a>
      <h2>Embedding Youtube</h2>
-     <a href="#top" target="youtube">Top</a><br/>
+     <a href="#top">Top</a><br/>
      <iframe width="560" height="315"
              src="https://www.youtube.com/embed/fk_g7VSnOoM"
              title="YouTube video player"
@@ -247,16 +321,33 @@
 
      <a name="embedding-slides"></a>
      <h2>Embedding Google slides</h2>
-     <a href="#top" target="slides">Top</a><br/>
+     <a href="#top">Top</a><br/>
      <iframe
              src="https://docs.google.com/presentation/d/e/2PACX-1vTWvToLo1yfGmeObineWu_v7--Ko-JEuL_mBTiTjTYKMJi-mG8DeLS7se1WN_9Ka21okumw-cSROdXj/embed?start=false&loop=false&delayms=3000"
              frameborder="0"
-             width="960" height="569"
+             width="960"
+             height="569"
              allowfullscreen="true"
              mozallowfullscreen="true"
              webkitallowfullscreen="true">
 
      </iframe>
+
+     <h2>Example</h2>
+     <svg width="300"
+          height="100">
+         <rect  width="300"
+                height="100"
+                style="fill:rgb(0,0,255);
+                stroke:rgb(0,0,0);
+                stroke-width:10;
+                " />
+         <circle cx="50" cy="50"
+                 r="40"
+                 stroke="green"
+                 stroke-width="4"
+                 fill="yellow" />
+     </svg>
 
      <h2>Table of content</h2>
      <ul>
@@ -290,45 +381,19 @@
                   style="fill:lime; stroke:hotpink; stroke-width:10; fill-rule:evenodd;" />
      </svg>
 
-     <!--
-     <h2>Table of content</h2>
-     <ul>
-         <li><a href="#embedding-website">Embedding other websites</a></li>
-         <li><a href="#embedding-youtube">Embedding Youtube videos</a></li>
-         <li><a href="#embedding-slides">Embedding Google slides</a></li>
-     </ul>
+     <br/>
+     <h2>Example</h2>
+     <a name="table-of-content"></a>
+     <a href="#section-a">Go to section A</a>
+     <a href="#section-b">Go to section B</a>
 
+     <a name="section-a"></a>
+     <h1>Section A</h1></a>
+     <a href="#table-of-content">Up</a>
 
-     <a name="embedding-website"></a>
-     <h2>Embedding other websites</h2>
-     <a href="#top" target="websites">Top</a><br/>
-     <iframe src="https://www.northeastern.edu/" name="websites"></iframe>
-
-     <a name="embedding-youtube"></a>
-     <h2>Embedding Youtube</h2>
-     <a href="#top" target="youtube">Top</a><br/>
-     <iframe src="https://www.youtube.com/embed/fk_g7VSnOoM" name="youtube"></iframe>
-
-    <a name="embedding-slides"></a>
-    <h2>Embedding Google slides</h2>
-    <a href="#top" target="slides">Top</a><br/>
-    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTWvToLo1yfGmeObineWu_v7--Ko-JEuL_mBTiTjTYKMJi-mG8DeLS7se1WN_9Ka21okumw-cSROdXj/embed?start=false&loop=false&delayms=3000"
-     name="slides"></iframe>
-
-     -->
-
-
-
-
-
-
-
-
-
-
-
-
-
+     <a name="section-b"></a>
+     <h1>Section B</h1></a>
+     <a href="#table-of-content">Up</a>
 
 </body>
 </html>

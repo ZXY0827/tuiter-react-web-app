@@ -28,6 +28,7 @@
 .wd-bg-color-green { background-color: green; }
 .wd-bg-color-darkgray { background-color: darkgray; }
 .wd-bg-color-black { background-color: black; }
+.wd-bg-color-white {background-color: white;}
 
 /*.wd-rounded-corners-all-around { border-radius: 50px;}*/
 /*input::placeholder {*/
@@ -37,6 +38,53 @@
 /*    width: 16.7%;*/
 /*    float: left;*/
 /*}*/
+
+.list-group-item.wd-padding-twitter {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-navigation {
+    float:left;
+    margin: 12px;
+}
+
+.wd-float-left {
+    float:left;
+}
+
+.wd-float-right {
+    float:right;
+}
+
+.badge-primary .override-bd{
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.wd-java-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+
+}
+
+
+.wd-img-width-height {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 25px;
+
+}
+
+.inline-block {
+    display: inline-block;
+    height: 50px;
+    margin: 30px;
+    padding: 2px;
+}
 
 .wd-widgets{
     /*flex: 0.3;*/

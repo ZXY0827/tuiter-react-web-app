@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <link rel="stylesheet"
+        href="challenge-index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"/>
+<!--  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"-->
+<!--        rel="stylesheet"/>-->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+</head>
+<body class="bg-white">
+
+  <div class="container">
+    <div class="row">
+      <!--1-->
+      <div class=" col-lg-1 col-xl-2 col-md-2 col-sm-2  col-2 mt-3 border-0">
+
+        <div class="list-group btn-block">
+          <i class="fa fab fa-twitter list-group-item wd-icon-color list-group-item-action
+                     border-0 my-2"></i>
+          <div>
+            <a href="home.html" class="list-group-item d-block d-xl-none border-0">
+              <div class="d-inline-flex position-relative ">
+                <i class="fa fa-solid fa-house-user mb-2" aria-hidden="true" ></i>
+                <span class="position-absolute  translate-middle
+                               top-0 start-100 p-1 border border-light rounded-circle wd-notification">
+                    <span class="visually-hidden ">New alerts</span>
+                  </span>
+              </div>
+            </a>
+            <a href="home.html" class="list-group-item  d-none d-xl-block border-0">
+              <div class="d-inline-flex position-relative ">
+                <i class="fa fa-solid fa-house-user mb-2 " aria-hidden="true" ></i>
+                <span class="position-absolute  translate-middle
+                               top-0 start-100 p-1 border border-light rounded-circle wd-notification">
+                    <span class="visually-hidden ">New alerts</span>
+                  </span>
+              </div>
+              <span class="ms-2">Home</span>
+            </a>
+          </div>
+
+          <div>
+            <a href="../explore/index.html" class="list-group-item d-block d-xl-none border-0 fw-bold">
+              <i class="fa fa-hashtag my-2"></i>
+            </a>
+            <a href="../explore/index.html" class=" list-group-item  d-none d-xl-block border-0 fw-bold">
+              <i class="fa fa-hashtag my-2"></i>
+              <span class="ms-2">Explore</span>
+            </a>
+          </div>
+
+          <div>
+            <a href="Notification.html" class=" list-group-item d-block d-xl-none border-0">
+              <i class="fa fa-regular fa-bell my-2" aria-hidden="true"></i>
+            </a>
+            <a href="Notification.html" class=" list-group-item  d-none d-xl-block border-0">
+              <i class="fa fa-regular fa-bell my-2" aria-hidden="true"></i>
+              <span class="ms-2">Notifications</span>
+            </a>
+          </div>
+          <div>
+            <a href="message.html" class=" list-group-item d-block d-xl-none border-0">
+              <i class="fa fa-regular fa-envelope my-2"></i>
+            </a>
+            <a href="message.html" class=" list-group-item  d-none d-xl-block border-0">
+              <i class="fa fa-regular fa-envelope my-2"></i>
+              <span class="ms-2">Message</span>
+            </a>
+          </div>
+          <div>
+            <a href="../../tuiter/bookmarks/index.html" class=" list-group-item d-block d-xl-none border-0">
+              <i class="fa fa-regular fa-bookmark my-2"></i>
+            </a>
+            <a href="../../tuiter/bookmarks/index.html" class=" list-group-item  d-none d-xl-block border-0">
+              <i class="fa fa-regular fa-bookmark my-2"></i>
+              <span class="ms-2">Bookmarks</span>
+            </a>
+          </div>
+          <div>
+            <a href="top-articles.html" class=" list-group-item d-block d-xl-none border-0">
+              <i class="fa fa-solid fa-fire my-2"></i>
+            </a>
+            <a href="top-articles.html" class=" list-group-item  d-none d-xl-block border-0">
+              <i class="fa fa-solid fa-fire my-2"></i>
+              <span class="ms-2">Top Articles</span>
+            </a>
+          </div>
+          <div>
+            <a href="profile.html" class=" list-group-item d-block d-xl-none border-0">
+              <i class="fa fa-regular fa-user my-2"></i>
+            </a>
+            <a href="profile.html" class=" list-group-item  d-none d-xl-block border-0">
+              <i class="fa fa-regular fa-user my-2"></i>
+              <span class="ms-2">Profile</span>
+            </a>
+          </div>
+          <div>
+            <a href="more.html" class=" list-group-item d-block d-xl-none border-0">
+              <i class="fa fa-solid fa-ellipsis my-2" aria-hidden="true"></i>
+            </a>
+            <a href="more.html" class=" list-group-item  d-none d-xl-block border-0">
+              <i class="fa fa-solid fa-ellipsis my-2" aria-hidden="true"></i>
+              <span class="ms-2">More</span>
+            </a>
+          </div>
+          <button type="submit"
+                  class="btn wd-button-color rounded-pill btn-block mt-3">Tuit</button>
+
+        </div>
+
+      </div>
+      <!--2-->
+      <div class=" col-lg-7 col-xl-6 col-md-10 col-sm-10 col-10 mt-3">
+        <div class="flex-container">
+          <ul class="list-group">
+            <li class="list-group-item border-bottom-0 border-top-0">
+              <div class="row mb-3">
+                <div class="col-11">
+                  <ul class="list-group ">
+                    <li class="list-group-item rounded-pill bg-light form-label-group">
+                      <i class="fa fa-search"></i>
+                      <input type="text" class=" border-0 bg-light ms-2"
+                             placeholder="Search Twitter" style="outline: none">
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-1">
+                  <a href="explore-settings.html">
+                    <i class="fa fa-cog mt-3 text-black"></i>
+                  </a>
+                </div>
+
+              </div>
+            </li>
+            <li class="list-group-item wd-lg-padding">
+              <div class="nav navbar wd-override-padding-bottom wd-override-padding-top">
+
+                <a class="nav-link wd-for-you text-decoration-none  text-black fw-bold
+                          wd-border-bottom" href="#">For you</a>
+                <a class="nav-link text-decoration-none text-muted" href="#">Trending</a>
+                <a class="nav-link text-decoration-none text-muted" href="#">News</a>
+                <a class="nav-link text-decoration-none text-muted" href="#">Sports</a>
+                <a class="nav-link text-decoration-none text-muted d-none d-md-block" href="#">Entertainment</a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="position-relative mb-1">
+            <img src="https://library.sportingnews.com/styles/crop_style_16_9_mobile_2x/s3/2022-01/australian-open-2022-011422_rp7ywi9r9nu71allc1prfz08s.jpg?itok=HcDgv9ky"
+                 alt="image-alt-text" class="img-fluid">
+            <div class="position-absolute bottom-0 left-0 p-2 text-white ms-2">
+              <div class="mb-0">Tennis Tournament  &middot; Live</div>
+              <div class="fw-bold wd-img-text" >Australian open 2023</div>
+            </div>
+          </div>
+
+          <ul class="list-group">
+            <li class="list-group-item  justify-content-between align-items-center border-bottom-0">
+              <div>
+                <a href="#">
+                  <i class="fa fa-solid fa-ellipsis mt-0 float-end mt-1 text-black"></i>
+                </a>
+              </div>
+
+              <div class="ms me-auto text-muted ">
+                <div>Politics &middot; Trending</div>
+                <div class="fw-bold text-dark float-start">
+                  Seizures
+                </div>
+                <br/>
+                4,953 Tweets
+              </div>
+
+              <div class="float-none"></div>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center pt-0 border-bottom-0">
+              <div class="ms me-auto ">
+                <div class="fw-bold mt-3">
+                  #InfinityPool<br/>
+                </div>
+                <div class="text-muted">
+                    <p class="mb-0">See the electrifying thriller Infinity Pool in theaters - if you dare</p>
+                  <a href="#" class="text-decoration-none text-muted">
+                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                    <small>Promoted by NEON</small>
+                  </a>
+
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item  justify-content-between align-items-center pt-0 border-bottom-0">
+              <div>
+                <a href="#">
+                  <i class="fa fa-solid fa-ellipsis mt-0 float-end mt-3 text-black"></i>
+                </a>
+
+              </div>
+              <div class="ms me-auto text-muted  mt-2">
+               <div>Sports &middot; Trending</div>
+                <div class="fw-bold text-dark float-start">
+                  RIP Bean
+                </div>
+                <br/>
+                <div>
+                  18K Tweets
+                </div>
+              </div>
+
+
+            </li>
+            <li class="list-group-item  justify-content-between align-items-center pt-0 border-bottom-0">
+              <div>
+                <a href="#">
+                  <i class="fa fa-solid fa-ellipsis mt-0 float-end mt-3 text-black"></i>
+                </a>
+
+              </div>
+              <div class="ms me-auto text-muted mt-3">
+                <div>Politics &middot; Trending</div>
+                <div class="fw-bold text-dark float-start">
+                  Durham
+                </div>
+                <br/>
+                <div>
+                  Trending with <span class="text-primary">Barr</span>, <span class="text-primary">Barr</span>
+                </div>
+              </div>
+
+
+            </li>
+            <li class="list-group-item justify-content-between align-items-center pt-0 border-bottom-0">
+              <div>
+                <a href="#">
+                  <i class="fa fa-solid fa-ellipsis mt-0 float-end mt-3 text-black"></i>
+                </a>
+              </div>
+              <div class="ms me-auto text-muted mt-2">
+                <div>Trending in Business and finance</div>
+                <div class="fw-bold text-dark">
+                  #DirectedEvolution
+                </div>
+
+                <div>
+                  172K Tweets
+                </div>
+              </div>
+
+
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <!--3-->
+      <div class=" col-lg-4 col-xl-4 d-none d-lg-block  mt-3 ">
+<!--        <div class="flex-container ">-->
+
+          <ul class="list-group wd-border-rounded">
+            <li class="list-group-item bg-light d-flex justify-content-between align-items-center border-0">
+              <p class="my-2 fw-bold">Who to follow</p>
+            </li>
+            <li class="list-group-item  bg-light d-flex justify-content-between
+                       align-items-center border-0 wd-follow-padding">
+              <div class="col-2">
+                <img style="width: 50px; height: 50px;" class="rounded-circle"
+                     src="northeastern.jpeg"/>
+              </div>
+
+              <div class="ms-2 me-auto col-7">
+
+                <div class="fw-bold ">
+                  Northeastern U.
+                  <i class="fa fa-solid fa-circle-check text-primary"></i>
+                </div>
+                @Northeastern
+              </div>
+              <div class="col-3">
+                <button class="btn btn-dark rounded-pill bg-black float-end" type="submit">Follow</button>
+              </div>
+
+            </li>
+
+            <li class="list-group-item d-flex bg-light justify-content-between align-items-center border-0">
+              <div class="col-2">
+                <img style="width: 50px; height: 50px;" class="rounded-circle mt-2 "
+                     src="matt.jpeg"/>
+              </div>
+
+              <div class="ms-2 me-auto col-7">
+                <div class="fw-bold mt-1">
+                  Matt Wallace
+                  <i class="fa fa-solid fa-circle-check text-primary"></i>
+                </div>
+                @MattWallace888
+              </div>
+              <div class="col-3">
+                <button class="btn btn-dark rounded-pill bg-black float-end" type="submit">Follow</button>
+              </div>
+
+            </li>
+            <li class="list-group-item bg-light d-flex justify-content-between align-items-center border-0 ">
+              <div class="col-2">
+                <img style="width: 50px; height: 50px;" class="rounded mt-0 "
+                     src="pointsbet.avif"/>
+              </div>
+
+              <div class="ms-2 me-auto col-7">
+                <div class="fw-bold mt-4">PointsBet Sportsb...
+                  <i class="fa fa-solid fa-circle-check text-warning"></i>
+                </div>
+                @PointsBetUSA
+                <div class="text-muted mt-2 ">
+                  <a href="#" class="text-decoration-none text-muted">
+                    <i class="fa-solid fa-square-arrow-up-right"></i>
+                    <small>Promoted</small>
+                  </a>
+                </div>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-dark rounded-pill bg-black float-end" type="submit">Follow</button>
+              </div>
+
+            </li>
+            <li class="list-group-item bg-light d-flex justify-content-between align-items-center border-0">
+              <a href="#" class="text-decoration-none my-2 wd-color" >Show more</a>
+            </li>
+          </ul>
+          <div class="mt-3 ms-3 ">
+            <a href="#" class="text-decoration-none my-2 me-2 text-muted small">Terms of Services</a>
+            <a href="#" class="text-decoration-none my-2 me-2 text-muted small">Privacy Policy</a>
+            <a href="#" class="text-decoration-none my-2 me-2 text-muted small">Cookie Policy</a>
+            <a href="#" class="text-decoration-none my-2 me-2 text-muted small">Accessibility</a>
+            <a href="#" class="text-decoration-none my-2 me-2 text-muted small">Ads info</a>
+            <a href="#" class="text-decoration-none my-2 me-2 text-muted small">More...</a>
+          </div>
+          <div>
+            <span class="my-2 me-2 ms-3 text-muted small">© 2023 Twitter, Inc.</span>
+          </div>
+<!--        </div>-->
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+</body>
+</html>

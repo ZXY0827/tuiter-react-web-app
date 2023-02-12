@@ -1,0 +1,59 @@
+.wd-img-w-h {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.wd-border-bottom {
+    border-bottom: 5px solid #1DA1F2;
+    /*margin-bottom: 5px;*/
+    padding-bottom: 5px;
+}
+
+.wd-img-text {
+    font-size: 30px;
+}
+
+.list-group-item.wd-icon-color {
+    color: #1DA1F2;
+}
+.wd-notification {
+    background-color: #1DA1F2;
+}
+.list-group-item.wd-follow-padding {
+    padding-bottom: 20px;
+}
+
+.wd-color {
+    color: #1DA1F2;
+}
+
+.btn.wd-button-color {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+
+
+.list-group.wd-border-rounded {
+    border-radius: 25px;
+}
+.list-group-item.wd-lg-padding {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.navbar.wd-override-padding-bottom {
+    padding-bottom: 0px;
+}
+
+.navbar.wd-override-padding-top {
+    padding-top: 0px;
+}
+
+.nav-link.wd-for-you {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 8px;
+}

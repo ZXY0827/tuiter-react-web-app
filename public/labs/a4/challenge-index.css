@@ -15,6 +15,9 @@
     font-size: 30px;
 }
 
+.wd-follow-font-size {
+    font-size: 14px;
+}
 .list-group-item.wd-icon-color {
     color: #1DA1F2;
 }

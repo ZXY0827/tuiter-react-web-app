@@ -25,7 +25,7 @@ const PostItems = (posts) => {
                         </div>
                         <div class="border mt-2 mb-2 border-secondary" style="max-width: 504px; border-radius: 15px; ">
                             ${posts.context && posts.text && posts.link ? `
-                                <img class="mt-0 img-fluid"
+                                <img class="mt-0 img-fluid border-bottom border-secondary"
                                  src="${posts.image}" style="margin-top: 10px; border-radius: 15px 15px 0px 0px ;"/>
                             
                             

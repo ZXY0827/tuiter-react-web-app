@@ -1,0 +1,33 @@
+
+[
+  {
+    "_id": 666,
+    "retweeted" : "Retweeted",
+    "avatarImage": "../../images/happynessAvatar.png",
+    "userName": "Will Smith",
+    "handle": "@willsmith",
+    "time": "3h",
+    "title": "<a href=\"#\" class=\"text-decoration-none\">@The Pursuit of Happyness</a> is a 2006 American biographical drama film directed by Gabriele Muccino and starring Will Smith as Chris Gardner, a homeless salesman.",
+    "context": "A 2006 American biographical drama film",
+    "image": "./../images/happyness.jpeg",
+    "thread": "Show this thread",
+    "link": "netflix.com",
+    "comment":"4.2k",
+    "forward": "22k",
+    "favorite": "53.9k"
+  },
+  {
+    "_id": 888,
+    "avatarImage": "../../images/avatarImage.jpeg",
+    "userName": "James Cameron",
+    "handle": "@cameron",
+    "time": "23h",
+    "title": "Avatar: The Way of Water",
+    "text": "Avatar: The Way of Water is a 2022 American epic science fiction film directed and produced by James Cameron.",
+    "comment":"50k",
+    "forward": "200k",
+    "favorite": "120k"
+
+
+  }
+]

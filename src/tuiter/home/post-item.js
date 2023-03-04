@@ -36,7 +36,7 @@ const PostItem = (
 
                 <div className="col-11 float-start" style={{paddingLeft: "20px", paddingRight: "30px", maxWidth: "550px"}}>
 
-                    <div>
+                    <div className="ms-2">
                         {post.userName}
                         <i className="bi bi-check-circle-fill ms-1"></i>
                         <span className="text-muted fw-light ms-1">

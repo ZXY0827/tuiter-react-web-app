@@ -36,21 +36,6 @@ const ExploreComponent = () => {
                 </li>
             </ul>
 
-            {/*<li className="nav-item">*/}
-            {/*    <a className="nav-link active bg-primary" href="for-you.html">For you</a>*/}
-            {/*</li>*/}
-            {/*<li className="nav-item">*/}
-            {/*    <a className="nav-link" href="trending.html">Trending</a>*/}
-            {/*</li>*/}
-            {/*<li className="nav-item">*/}
-            {/*    <a className="nav-link" href="news.html">News</a>*/}
-            {/*</li>*/}
-            {/*<li className="nav-item">*/}
-            {/*    <a className="nav-link" href="sports.html">Sports</a>*/}
-            {/*</li>*/}
-            {/*<li className="nav-item d-none d-md-block">*/}
-            {/*    <a className="nav-link" href="entertainment.html">Entertainment</a>*/}
-            {/*</li>*/}
             <div className="position-relative mb-2">
                 <img src="../../../images/starship.jpeg" className="w-100"/>
                 <h1 className="position-absolute wd-nudge-up text-white">

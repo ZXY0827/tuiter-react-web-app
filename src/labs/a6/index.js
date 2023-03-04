@@ -17,9 +17,6 @@ function Assignment6() {
             <ConditionalOutput/>
             <TodoItem/>
             <TodoList/>
-
-
-
         </div>
     );
 }

@@ -20,6 +20,7 @@
     "_id": 888,
     "avatarImage": "../../images/avatarImage.jpeg",
     "userName": "James Cameron",
+    "name": "James",
     "handle": "@cameron",
     "time": "23h",
     "title": "Avatar: The Way of Water",

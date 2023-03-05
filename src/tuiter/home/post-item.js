@@ -61,7 +61,7 @@ const PostItem = (
                                 <div className="ms-2" >
                                     <img width={24} height={23} style={{borderRadius: "50%"}}
                                          src={`../../../images/${post.avatarImage}`}/>
-                                    <span className="ms-1">{post.userName}</span>
+                                    <span className="ms-1">{post.name}</span>
                                     <i className="bi bi-check-circle-fill ms-1"></i>
                                     <span className="text-muted fw-light ms-1">
                                         {post.handle}

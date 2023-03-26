@@ -1,0 +1,47 @@
+[
+  {
+    "_id": 123,
+    "topic": "Tesla",
+    "userName": "Tesla",
+    "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+    "time": "2h",
+    "avatarImage": "tesla.png",
+    "image": "tesla.png",
+    "liked": false,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@tesla",
+    "tuit": "Tesla, began production of its first car model, the Roadster sports car, in 2008. This was followed by the Model S sedan in 2012, the Model X SUV in 2015, the Model 3 sedan in 2017, the Model Y crossover in 2020, and the Tesla Semi truck in 2022. The company plans to start production of the Cybertruck light-duty pickup truck in 2023.[8] The Model 3 is the all-time bestselling plug-in electric car worldwide, and, in June 2021, became the first electric car to sell 1 million units globally."
+  },
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "time": "2h",
+    "avatarImage": "spacex.jpg",
+    "image": "spacex.jpg",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 6666,
+    "handle": "@spacex",
+    "tuit": "Space Exploration Technologies Corp. (SpaceX) is an American spacecraft manufacturer, launcher, and a satellite communications corporation headquartered in Hawthorne, California. It was founded in 2002 by Elon Musk with the stated goal of reducing space transportation costs to enable the colonization of Mars. The company manufactures the Falcon 9, Falcon Heavy, and Starship launch vehicles, several rocket engines, Cargo Dragon and Crew Dragon spacecraft, and Starlink communications satellites."
+  },
+  {
+    "_id": 345,
+    "topic": "Energy",
+    "userName": "Tesla",
+    "time": "4d",
+    "avatarImage": "tesla.png",
+    "image": "tesla.png",
+    "liked": false,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 8888,
+    "handle": "@tesla",
+    "tuit": "Tesla was incorporated in July 2003 by Martin Eberhard and Marc Tarpenning as Tesla Motors. The company's name is a tribute to the Serbian-American engineer, futurist, and inventor Nikola Tesla. In February 2004, via a $6.5 million investment, Elon Musk became the largest shareholder of the company, eventually assuming as the company's CEO, a corporate position that he has retained and served since 2008. According to Musk, the purpose of Tesla is to help expedite the move to sustainable transport and energy, obtained through electric vehicles and solar power."
+  }
+]
+

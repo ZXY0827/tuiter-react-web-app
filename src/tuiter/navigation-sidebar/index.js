@@ -70,13 +70,15 @@ const NavigationSidebar = () => {
                 Lists
             </a>
 
-            <a className={`list-group-item d-block d-xl-none ${active === 'profile'?'active':''}`}>
+            <Link to="/tuiter/profile" className={`list-group-item d-block d-xl-none ${active === 'profile'?'active':''}`}>
                 <i className="bi bi-person"></i>
-            </a>
-            <a className={`list-group-item d-none d-xl-block ${active === 'profile'?'active':''}`}>
+            </Link>
+            <Link to="/tuiter/profile" className={`list-group-item d-none d-xl-block ${active === 'profile'?'active':''}`}>
                 <i className="bi bi-person me-1"></i>
                 Profile
-            </a>
+            </Link>
+
+
 
             <a className={`list-group-item d-block d-xl-none ${active === 'more'?'active':''}`}>
                 <i className="bi bi-three-dots"></i>

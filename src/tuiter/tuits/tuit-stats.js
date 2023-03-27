@@ -1,6 +1,5 @@
 import React from "react"
 import {useDispatch} from "react-redux";
-import TuitItem from "./tuit-list/tuit-list-items";
 import {toggleLike} from "./tuits-reducer";
 
 
@@ -10,8 +9,6 @@ const TuitStats = ({tuit = tuit}) => {
     const toggleLikeHandler = (tuit) => {
         dispatch(toggleLike(tuit))
     }
-
-
     return (
         <div className="nav navbar" style={{maxWidth: "400px"}}>
             <a className="text-decoration-none ms-2 text-black mt-2" href="#">

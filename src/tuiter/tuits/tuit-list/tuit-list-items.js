@@ -2,30 +2,31 @@ import React, {useState}from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {deleteTuit, toggleLike} from "../tuits-reducer";
 import TuitStats from "../tuit-stats";
+import {deleteTuitThunk} from "../../../services/tuits-thunks";
 
 
 const TuitItem = ({tuit = tuit }) => {
 
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
-    const toggleLikeHandler = (id) => {
-        dispatch(toggleLike(id));
-    }
+    // const toggleLikeHandler = (id) => {
+    //     dispatch(toggleLike(id));
+    // }
 
     return(
             <li className="list-group-item">
                 <div className="row">
                     <div className="float-start col-1">
                         <img width={48} height={48} style={{borderRadius: "50%"}}
-                             src={`/images/${tuit.avatarImage}`}/>
+                             src={`../../../images/${tuit.image}`}/>
                     </div>
 
-                    <div className="col-11 float-start" style={{paddingLeft: "20px", paddingRight: "30px", maxWidth: "550px"}}>
+                    <div className="col-11 float-start" style={{paddingLeft: "20px", paddingRight: "30px", maxWidth: "600px"}}>
 
                         <div className="ms-2">
-                            <span className="fw-bold">{tuit.userName}</span>
+                            <span className="fw-bold">{tuit.username}</span>
                             <i className="bi bi-check-circle-fill ms-1 text-primary"></i>
                             <span className="text-muted fw-light ms-1">
                                     {tuit.handle}

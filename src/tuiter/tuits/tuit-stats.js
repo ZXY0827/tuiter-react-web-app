@@ -17,7 +17,6 @@ const TuitStats = ({tuit = tuit}) => {
             updateTuitThunk({
                 ...tuit,
                 liked: newLikedValue,
-                // dislikes: tuit.disliked ? tuit.dislikes - 1 : tuit.dislikes,
                 likes: newLikesValue,
             })
         );
@@ -31,7 +30,6 @@ const TuitStats = ({tuit = tuit}) => {
             updateTuitThunk({
                 ...tuit,
                 disliked: newDislikedValue,
-                // likes: tuit.liked ? tuit.likes + 1 : tuit.likes,
                 dislikes: newDislikesValue,
             })
         );
